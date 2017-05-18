@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<title>抽奖转盘页</title>
+	<!--公共css-->
+	<link rel="stylesheet" href="css/pagestyle.css">
+	<link rel="stylesheet" href="css/base.css">
+	<!--公共js-->
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<!--本页js-->
+	<!--script type="text/javascript" src="js/binding.js"></script-->
+	<script type="text/javascript" src="js/awardRotate.js"></script>
+    <script type="text/javascript" src="js/zhuanpan.js"></script>
+</head>
+<body>
+	<div class="trapper bg5b pr">
+		<div class="turnplate_title bge7">
+			<img src="images/turnplate_title.png" alt="">
+			<button id="newturnplate_btn1">活动规则</button>
+		</div>
+		<img src="images/turnplate_6s.png" id="6s-img" style="display:none;" />
+		<div class="turnplate_banner bg5b">
+		    <div class="turnplate" style="background-image:url(images/turnplate_bg1.png);background-size:100% 100%;">
+			    <canvas class="item" id="wheelcanvas" width="422px" height="422px"></canvas>
+			    <img class="pointer" src="images/turnplate_pointer1.png"/>
+		    </div>
+		    <div class="changes">
+		    	<p>您还有<span style="color:#D6AB46;">1</span>次抽奖机会</p>
+		    </div>
+		    <div class="turnplate_price bgca f12 lh18 cfc">
+		    	138xxxx1234用户获得xxxxx
+		    </div>
+		    <div class="turnplate_a">
+		    	<a href="#" class="f10 cf3">查看完整名单</a>
+		    </div>
+		    <div class="turnplate_footer f08 cff">
+		    	<p>奖品说明</p>
+		    	<p>1、本次活动流量使用期限为到账之日起一个月，月末清零。</p>
+		    	<p>2、本次活动话费为即时到账,iPhone6s中奖用户中奖后7个工作日内工作人员与客户取得联系确认信息。</p>
+		    </div>
+	    </div>
+	    <!--弹窗背景-->
+	    <!-- <div class="newturnplate_bg"></div>
+	    活动规则
+	    		<div class="newturnplate_rule">
+	    		    <h2 class="tc w100">活动规则</h3>
+	    		   	<p>1、一个移动号码有一次幸运大转盘机会;</p>
+	    		   	<p>2、分享至朋友圈可再得一次机会;(限一次)</p>
+	    		   	<p>3、充值话费可增加一次;(上限为10次，10次后无效)</p>
+	    		   	<p>4、邀请好友参加，成功推荐增加一次。(邀请人数不限，好友成功参加活动后增加一次机会)</p>
+	    	<button id="binding_btn">了解</button>
+	    </div>
+	    中奖弹窗
+	    <div class="price">
+	    	<h2>恭喜您，中奖了</h2>
+	    	<p>您中的奖品是iPhone6s一台</p>
+	    	<div class="price_intro">
+	    		<div class="name">
+	    			姓名 <input type="text">
+	    		</div>
+	    		<div class="name">
+	    			电话 <input type="text">
+	    		</div>
+	    		<div class="name">
+	    			地址 <input type="text">
+	    		</div>
+	    	</div>
+	    	<a href="#">提交</a>
+	    </div>
+	    没有中奖
+	    <div class="noprice">
+	    	<div class="noprice_img">
+	    		<img src="images/no.png" alt="">
+	    	</div>
+	    	<p>恭喜您，获得1元话费</p>
+	    	<a href="#" id="continue">继续</a>
+	    </div>
+	    获得机会
+	    <div class="chance_intro">
+	    	<h4>完成任务获得更多抽奖机会</h4>
+	    	<div class="change_mid">
+	    		<div class="chance_up">
+	    		    <a href="#" class="share">成功分享+1</a>
+	    	    </div>
+	    	    <div class="chance_up">
+	    		    <a href="#">充值话费+1</a>
+	    	    </div>
+	    	    <div class="chance_up">
+	    		    <a href="#">成功邀请好友+1</a>
+	    	    </div>
+	    	</div>
+	    	<div class="change_btn">
+	    		<a href="#" class="a1 share">分享</a>
+	    		<a href="#" class="a1 ml">了解</a>
+	    	</div>
+	    </div> -->
+	    <!--分享图层-->
+	    <div class="newturnplate_share">
+	    	<img src="images/newturnplate_share.png" alt="">
+	    	<p>点击分享到朋友圈</p>
+	    </div>
+	</div>
+</body>
+</html>

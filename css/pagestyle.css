@@ -1,0 +1,362 @@
+
+.trapper{
+	max-width: 960px;
+	/*height: auto;*/
+	height: 100%;
+	font-family:"Microsoft YaHei";
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F0F0F0;
+	overflow: hidden;
+}
+/*完整名单页面*/
+.namelist{
+	width: 96%;
+	margin: 20px auto 0 auto;
+	background: url(../images/namelist_bg.png) no-repeat;
+	background-size: 100% 100%;
+	min-height: 568px;
+	position: relative;
+}
+.namelist_content{
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    width: 90%;
+}
+.namelist_content p{
+	font-size: 1em;
+	line-height: 2em;
+	border-bottom: 1px dashed #EE9356;
+	margin: 10px auto;
+	text-align: center;
+}
+/*抽奖转盘页*/
+.turnplate_title{
+	width: 100%;
+	height: auto;
+}
+.turnplate_title img{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.turnplate_title button{
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background-color: #5B1142;
+	font-size: 0.8em;
+	color: #fff;
+	margin: 0 auto 5px 2%;
+}
+.changes{
+	width: 100%;
+	margin: 5px auto;
+}
+.changes p{
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	color: #C04962;
+    letter-spacing: 1px;
+}
+.turnplate_a{
+	margin: 10px auto;
+	width: 50%;
+}
+.turnplate_a a{
+    text-align: center;
+    width: 100%;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.turnplate_price{
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 20px;
+	border: 10px solid #E65767;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.turnplate_footer{
+	width: 96%;
+	margin: 30px auto 10px auto;
+}
+.turnplate_footer p{
+	line-height: 2em;
+	letter-spacing: 1px;
+}
+.turnplate_banner{
+	display:block;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+}
+.turnplate_banner .turnplate{
+	display:block;
+	width:90%;
+	position:relative; 
+	z-index:1;
+	margin: 0 auto;
+}
+.turnplate_banner .turnplate canvas.item{
+	width:100%;
+}
+.turnplate_banner .turnplate img.pointer{
+	position: absolute;
+	/*width:31.5%;*/
+	width: 33%;
+	/*height:42.5%;*/
+	height: 39%;
+	/*left:34.6%;*/
+	left: 33.5%;
+	/*top:23%;*/
+	top: 26.5%; 
+	z-index:999;
+}
+.signmap_title{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+}
+.signmap_title p{
+	width: 96%;
+	margin: 5px auto;
+	font-size: 0.8em;
+	color: #fff;
+	line-height: 2em;
+}
+.signmap_map{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+.signmap_map img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.signmap_btn{
+	width: 40%;
+	height: auto;
+	position: fixed;
+	bottom: 5px;
+	left: 30%;
+}
+.signmap_btn a{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	background-color: #0080CC;
+	color: #fff;
+	font-weight: 600;
+}
+
+.newturnplate_bg{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	background-color: #000;
+	z-index: 1111;
+	width: 100%;
+	height: 100%;
+}
+.newturnplate_rule{
+	display: none;
+	z-index: 1112;
+	position: absolute;
+	top: 100px;
+	width: 80%;
+	left: 10%;
+	background-color: #E65866;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+.newturnplate_rule h2{
+	color: #F9D447;
+	margin: 5px auto;
+}
+.newturnplate_rule p{
+	width: 90%;
+	margin: 5px auto;
+	font-size: 0.8em;
+	color: #F9D447;
+}
+.newturnplate_rule button{
+	width: 50%;
+	border-radius: 5px;
+	background-color: #F9D447;
+	border: none;
+	margin: 10px 25%;
+	font-size: 1em;
+	line-height: 2em;
+	color: #E65866;
+}
+
+/*中奖弹窗*/
+.price{
+	display: none;
+	z-index: 1112;
+	position: absolute;
+	top: 100px;
+	width: 80%;
+	left: 10%;
+	background-color: #F9D447;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+.price h2{
+	width: 100%;
+	text-align: center;
+	color: #EE382B;
+	letter-spacing: 1px;
+}
+.price p{
+	width: 100%;
+	text-align: center;
+	font-size: 0.8em;
+	color: #EE382B;
+}
+.price_intro{
+	width: 96%;
+	margin: 25px auto;
+	text-align: center;
+}
+.price_intro .name{
+	margin: 10px auto;
+	color: #EE382B;
+	width: 100%;
+}
+.price_intro .name input{
+	border: none;
+	padding: 5px 2%;
+	width: 60%;
+}
+.price a{
+	display: block;
+	background-color: #E65866;
+	border-radius: 5px;
+	color: #F2AB51;
+	width: 50%;
+	margin: 5px auto;
+	text-align: center;
+	font-size: 1em;
+	line-height: 2em;
+}
+/*未中奖*/
+.noprice{
+	display: none;
+	z-index: 1112;
+	position: absolute;
+	top: 100px;
+	width: 80%;
+	left: 10%;
+	background-color: #E65866;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+.noprice_img{
+	width: 100%;
+	text-align: center;
+}
+.noprice_img img{
+	width: 60%;
+}
+.noprice p{
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.noprice a{
+	display: block;
+	margin: 20px auto;
+	border-radius: 5px;
+	background-color: #F9D447;
+	color: #EA735F;
+	font-size: 1em;
+	text-align: center;
+	line-height: 2em;
+	width: 50%;
+}
+/*分享获得机会*/
+.chance_intro{
+	display: none;
+	z-index: 1112;
+	position: absolute;
+	top: 100px;
+	width: 80%;
+	left: 10%;
+	background-color: #E65866;
+	border-radius: 10px;
+	padding: 20px 0;
+}
+.chance_intro h4{
+	width: 100%;
+	text-align: center;
+	color: #F9D447;
+	margin: 10px auto;
+}
+.change_mid{
+	width: 100%;
+	margin: 10px auto;
+}
+.chance_up{
+	width: 90%;
+	margin: 10px auto;
+}
+.chance_up a{
+	display: block;
+	background-color: #CA273A;
+	color: #F9D447;
+	text-align: center;
+	font-size: 1em;
+	line-height: 2em;
+	width: 90%;
+	margin: 0 auto;
+}
+.change_btn{
+	width: 96%;
+	margin: 15px auto 5px auto;
+	overflow: hidden;
+}
+.change_btn .a1{
+	width: 48%;
+	float: left;
+	margin-right: 1%;
+	color: #E75767;
+	border-radius: 5px;
+	background-color: #F9D447;
+	text-align: center;
+	display: block;
+	font-size: 1em;
+	line-height: 2em;
+}
+/*手型分享*/
+.newturnplate_share{
+	display: none;
+	position: absolute;
+	z-index: 2000;
+	width: 50%;
+	top: 0;
+	right: 3%;
+}
+.newturnplate_share img{
+	width: 30%;
+	vertical-align: bottom;
+	display: block;
+	float: right;
+}
+.newturnplate_share p{
+	clear: both;
+	color: #fff;
+}

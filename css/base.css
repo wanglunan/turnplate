@@ -1,0 +1,88 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	font-family: 'Microsoft YaHei';
+	min-height: 568px;
+}
+li{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+/*文字排版*/
+.f08{font-size:0.8em;}
+.f09{font-size:0.9em;}
+.f10{font-size:  1em;}
+.f11{font-size:1.1em;}
+.f12{font-size:1.2em;}
+.f13{font-size:1.3em;}
+.f14{font-size:1.4em;}
+.f15{font-size:1.5em;}
+.f16{font-size:1.6em;}
+.f17{font-size:1.7em;}
+.f18{font-size:1.8em;}
+.f20{font-size:  2em;}
+.f22{font-size:2.2em;}
+.f24{font-size:2.4em;}
+/*背景颜色*/
+.bgw{background-color: #fff;}
+.bgf0{background-color: #F0F0F0;}
+.bg00{background-color: #0080CC;}
+.bgda{background-color: #DA1E00;}
+.bgf6{background-color: #F6B720;}
+.bg9b{background-color: #9B9B9B;}
+.bg96{background-color: #96D037;}
+.bgd3{background-color: #D3321C;}
+.bgff{background-color: #FFD800;}
+.bgffc{background-color: #FFCC00;}
+.bgf8{background-color: #F8D446;}
+.bg5c{background-color: #5C1343;}
+.bgd9{background-color: #D92C3E;}
+.bg5b{background-color: #5B1142;}
+.bgca{background-color: #CA283A;}
+.bg55{background-color: #555555;}
+.bge7{background-color: #E75A6A;}
+/*文字颜色*/
+.c00{color: #0080CC;}
+.cda{color: #DA1E00;}
+.cf6{color: #F6B720;}
+.c9b{color: #9B9B9B;}
+.c22{color: #2291D3;}
+.c55{color: #555555;}
+.c01{color: #0180CD;}
+.c9c{color: #9C9C9C;}
+.cc9{color: #C93517;}
+.cf3{color: #F3CE46;}
+.cca{color: #CA283A;}
+.cfc{color: #FCE27B;}
+.cff{color: #fff;}
+/*下边框样式*/
+.underline{border-bottom: 3px solid #007AC9;}
+/*行高*/
+.lh20{line-height: 2em;}
+.lh11{line-height: 1.1em;}
+.lh18{line-height: 1.8em;}
+/*inline_block*/
+.inb{display: inline-block;}
+/*宽度*/
+.w40{width: 40%;}
+.w55{width: 55%;}
+.w30{width: 30%;}
+/*文字排版*/
+.tc{text-align: center;}
+.tr{text-align: right;}
+.tl{text-align: left;}
+/*隐藏*/
+.disn{display: none;}
+/*定位*/
+.pr{position: relative;}
+/*左边距*/
+.ml{margin-left: 2%;}
+
